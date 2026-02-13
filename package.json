@@ -1,0 +1,16 @@
+{
+  "name": "mm-ticket-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.3.2"
+  }
+}
