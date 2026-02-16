@@ -999,7 +999,7 @@ if (cmd === "search") {
     if (!settings || !mustBeSetup(settings)) return message.reply("❌ Setup missing.").catch(() => null);
 
     if (!message.member.permissions.has(PermissionsBitField.Flags.ManageRoles)) {
-      return message.reply("❌ Missing permission (Manage Roles).").catch(() => null);
+      return message.reply("❌ Only high admin can use this command.").catch(() => null);
     }
 
     const target = message.mentions.members.first();
